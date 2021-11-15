@@ -1,7 +1,7 @@
 import requests
 
 url = f"https://api.openweathermap.org/data/2.5/weather"
-api_key = ""
+api_key = "2b4c4fe1521e93982618afd9a02eacca"
 location_parameters = dict(q='Berlin,de', appid=api_key)
 #url_with_params = f"https://api.openweathermap.org/data/2.5/weather?q=Berlin,de&appid={api_key}"
 response = requests.get(url, params=location_parameters)

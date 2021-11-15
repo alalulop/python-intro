@@ -155,4 +155,4 @@ else:
 2. Change the degrees to celsius (metric scale). [See API Docs]("https://openweathermap.org/current")
 3. Get the weather for the current location (by geographic coordinates). [See API Docs]("https://openweathermap.org/current") <br/>
 An easy way to get the coordinates is in Google Maps. Right click on a point of the map to see them.
-4. A Startup about Climate Change Data Analytics just hired you. Your first task is to get a list of 10 events in Germany happening this week and display the weather forecast. For your reference, [see Ticketmaster API Docs]("https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/") and [OpenWeatherMaps Forecast API Docs]("https://openweathermap.org/forecast16")
+4. A Startup about Climate Change Data Analytics just hired you. Your first task is to get the next event in Germany happening this week and display the weather forecast. For your reference, [see Ticketmaster API Docs]("https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/") and [OpenWeatherMaps Forecast API Docs]("https://openweathermap.org/forecast16")
