@@ -146,7 +146,7 @@ if response:
     weather_type = json_response['weather'][0]['main']
     weather_type_desc = json_response['weather'][0]['description']
     weather_temperature = json_response["main"]["temp"]
-    print(f"Current weather in Berlin: {weather_type} - {weather_type_desc} - {weather_temperature}ºC")
+    print(f"Current weather in Berlin: {weather_type} - {weather_type_desc} - {weather_temperature}º")
 else:
     print('Response Failed')
 ```
