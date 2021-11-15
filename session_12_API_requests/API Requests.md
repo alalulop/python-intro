@@ -81,14 +81,14 @@ Example:
 }
 ```
 We will use JSON response format in this session.
-### API Browser
+### API Browser ###
 There are many APIs available for free. You can find below two collections of APIs:
 - [AWESOME APIs](https://github.com/TonnyL/Awesome_APIs) 
 - [Programmable Web APIs Directory](https://www.programmableweb.com/apis/directory?page=1)
 
 ## Python requests library
 Requests is the most common and simplest HTTP library for Python to send HTTP requests easily. You can get more details in the [official documentation](https://docs.python-requests.org/en/latest/) <br/>
-###Pre requisites
+### Pre requisites ###
 1. Installation: <br/>
 Create a project in PyCharm and run the following command in the terminal 
 ```python
@@ -98,7 +98,7 @@ pip install requests
 ```python
 import requests
 ```
-###Making a simple request
+### Making a simple request ###
 For this example we are going to get info about a postal code using [Zippotam Open API](https://api.zippopotam.us/)
 Make a request and check if we got a successful response
 ```python
@@ -128,7 +128,7 @@ else:
     print('Response Failed')
 ```
 
-###Making a request with parameters in the header
+### Making a request with parameters in the header ###
 For this example, we are going to request information about the weather from the [OpenWeatherMap API](https://openweathermap.org/api)
 ```python
 import requests
