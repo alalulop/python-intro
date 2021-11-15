@@ -43,7 +43,7 @@ Each request has a response. The Response consists of a
 - Status code And Description
 - Headers
 - Optional Body message can be many lines including binary data
-#### Response Status
+#### Response Status ####
 - Response Status codes are split into 5 groups each group has a meaning and a three digit code.
 
 - 1xx – Informational
@@ -152,6 +152,7 @@ else:
 ```
 ## Exercises
 1. Print the weather only if the status code is 200. If there is an error, print the error message
-2. Change the degrees to celsius (metric scale)
-3. Get the weather for the current location
-4. Get all the concerts in Germany from Ticketmaster and display the weather of the first 5
+2. Change the degrees to celsius (metric scale). [See API Docs]("https://openweathermap.org/current")
+3. Get the weather for the current location (by geographic coordinates). [See API Docs]("https://openweathermap.org/current") <br/>
+An easy way to get the coordinates is in Google Maps. Right click on a point of the map to see them.
+4. Get all the concerts in Germany from Ticketmaster and display the weather of the first 5. [See Ticketmaster API Docs]("https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/")
