@@ -14,8 +14,6 @@ Application programming interfaces, or APIs, allow different apps and services t
 3. The server sends a response to the API with the requested information.
 4. The API transfers the data to the initial requesting application.
 
-![How it works](http://www.steves-internet-guide.com/wp-content/uploads/HTTP-Protocol-Basics.jpg)
-
 APIs can provide the following functionalities: Create, Read, Update, and Delete resources
 
 ### HTTP Requests
@@ -25,12 +23,8 @@ A HTTP request has the following structure
 - Body (Optional)
 #### Methods
 HTTP methods determine which action you’re trying to perform when making an HTTP request.
-Currently, there are five available methods:
-- GET
-- POST
-- PUT
-- DELETE
-- PATCH
+The most common ones are GET, to retrieve data and POST, to write data.
+
 #### Headers
 HTTP headers let the client pass additional information, so that the server can tailor the response. Some examples are:
 - User-Agent
