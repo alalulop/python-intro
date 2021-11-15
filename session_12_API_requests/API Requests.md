@@ -80,16 +80,16 @@ Example:
   ]
 }
 ```
-We will use this format in this session.
+We will use JSON response format in this session.
 ### API Browser
 There are many APIs available for free. You can find below two collections of APIs:
 - [AWESOME APIs](https://github.com/TonnyL/Awesome_APIs) 
 - [Programmable Web APIs Directory](https://www.programmableweb.com/apis/directory?page=1)
 
 ## Python requests library
-Requests is the most common and simplest HTTP library for Python to send HTTP requests easily. You can get more details in the [official documentation](https://docs.python-requests.org/en/latest/)
+Requests is the most common and simplest HTTP library for Python to send HTTP requests easily. You can get more details in the [official documentation](https://docs.python-requests.org/en/latest/) <br/>
 ###Pre requisites
-1. Installation
+1. Installation: <br/>
 Create a project in PyCharm and run the following command in the terminal 
 ```python
 pip install requests
@@ -135,8 +135,8 @@ import requests
 
 url = f"https://api.openweathermap.org/data/2.5/weather"
 api_key = ""
-location_parameters = dict(q='Berlin,de', units='metric', appid=api_key)
-
+location_parameters = dict(q='Berlin,de', appid=api_key)
+#url_with_params = f"https://api.openweathermap.org/data/2.5/weather?q=Berlin,de&appid={api_key}"
 response = requests.get(url, params=location_parameters)
 
 if response:
@@ -151,7 +151,7 @@ else:
     print('Response Failed')
 ```
 ## Exercises
-1. Print the weather only if the status code is 200
+1. Print the weather only if the status code is 200. If there is an error, print the error message
 2. Change the degrees to celsius (metric scale)
 3. Get the weather for the current location
 4. Get all the concerts in Germany from Ticketmaster and display the weather of the first 5
