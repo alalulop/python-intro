@@ -1,4 +1,4 @@
-# Session 12 - API Requests
+# Session 13 - API Requests
 In this session we will learn how to get data from an API with Python requests library.
 ## What is an API
 Application programming interfaces, or APIs, allow different apps and services to work together and to exchange data.
